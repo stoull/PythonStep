@@ -12,12 +12,14 @@ def my_function(a, b, *args, **kwargs):
 
 print("=== Example of using *args and **kwargs === ")
 def power_func(*args, **kwargs):
+  print(f"args is {args}")
+  print(f"kwargs is {kwargs}")
   total = 0
   for item in kwargs.values():
     total += item
   return sum(args) + total
 
-six_sum = power_func(1, 2, 3, 4, 5, 6)
+six_sum = power_func(1, 2, 3, 4, 5, last=10)
 print(six_sum)
 
 
