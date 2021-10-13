@@ -1,3 +1,4 @@
+
 def super_func(*args):
   print(*args)
   return sum(args)
@@ -5,6 +6,9 @@ def super_func(*args):
 five_sum = super_func(1, 2, 3, 4, 5)
 print(five_sum)
 
+# correct_function_definition.py
+def my_function(a, b, *args, **kwargs):
+    pass
 
 print("=== Example of using *args and **kwargs === ")
 def power_func(*args, **kwargs):
