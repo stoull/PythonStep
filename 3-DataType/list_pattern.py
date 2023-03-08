@@ -25,3 +25,10 @@ annotation = " === Using None === "
 print(annotation)
 weapons = None
 print(weapons)
+
+
+
+
+
+
+

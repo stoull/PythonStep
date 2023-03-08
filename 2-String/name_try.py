@@ -1,4 +1,4 @@
-eric = "eric"
+eric = "eric se "
 message = f"Hello {eric.title()}, would you like learn some Python today?"
 
 print(message)

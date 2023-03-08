@@ -9,6 +9,9 @@ empty_tuple = () # is a empty tuple
 
 new_tuple = (1, ) # Note the trailing comma.
 
+print(type(new_tuple))
+print(new_tuple)
+
 new_tuple = (1)
 print(type(new_tuple)) # <type 'init'> It won't return a tuple. Because there is no trailing comma
 

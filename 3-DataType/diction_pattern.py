@@ -7,3 +7,6 @@ dictionary = {
 
 print(dictionary['isTrue'])
 print(dictionary[(1, 2)])
+
+for key,value in dictionary.items():
+  print(f"key is: {key}, value: is {value}")

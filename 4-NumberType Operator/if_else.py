@@ -41,3 +41,7 @@ if a == 5: print('A is five')
 # a=b? "a=b":"a!=b"
 print('A is five') if a == 5 else print('A is not five')
 
+
+
+print(" =============== ")
+isOpenFile = False

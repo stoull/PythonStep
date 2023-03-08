@@ -26,3 +26,23 @@ alpha.remove('a')
 alpha.discard('h') # It's safer to use discard than remove.
 # Discard will never throw an error if the element is not preset, remove will
 print(alpha)
+
+
+print("== ==========")
+
+aDic = {'a': 'b', 'c': 'd'}
+aSet = {'a', 'b', 'c', 'd'}
+
+print(type(aDic))
+print(type(aSet))
+
+
+for key,value in aDic.items():
+	print(key, value)
+
+for value in aSet:
+	print(value)
+
+
+
+
